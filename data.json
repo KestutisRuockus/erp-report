@@ -1,0 +1,108 @@
+{
+  "clients": [
+    { "id": 1, "name": "UAB Technorama" },
+    { "id": 2, "name": "MB Saulutė" },
+    { "id": 3, "name": "UAB Baltijos Prekyba" },
+    { "id": 4, "name": "UAB Greitas Logistika" },
+    { "id": 5, "name": "UAB Saulės Energija" },
+    { "id": 6, "name": "MB Kodas ir Ko" }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "number": "INV-2024-001",
+      "amount": 1200.0,
+      "due_date": "2024-01-15",
+      "status": "unpaid"
+    },
+    {
+      "id": 2,
+      "client_id": 2,
+      "number": "INV-2024-002",
+      "amount": 340.5,
+      "due_date": "2024-02-20",
+      "status": "unpaid"
+    },
+    {
+      "id": 3,
+      "client_id": 3,
+      "number": "INV-2024-003",
+      "amount": 875.0,
+      "due_date": "2024-03-01",
+      "status": "paid"
+    },
+    {
+      "id": 4,
+      "client_id": 1,
+      "number": "INV-2024-004",
+      "amount": 2100.0,
+      "due_date": "2024-03-10",
+      "status": "unpaid"
+    },
+    {
+      "id": 5,
+      "client_id": 4,
+      "number": "INV-2024-005",
+      "amount": 560.0,
+      "due_date": "2025-12-01",
+      "status": "unpaid"
+    },
+    {
+      "id": 6,
+      "client_id": 2,
+      "number": "INV-2024-006",
+      "amount": 990.0,
+      "due_date": "2026-04-01",
+      "status": "unpaid"
+    },
+    {
+      "id": 7,
+      "client_id": 5,
+      "number": "INV-2024-007",
+      "amount": 450.0,
+      "due_date": "2024-06-15",
+      "status": "unpaid"
+    },
+    {
+      "id": 8,
+      "client_id": 6,
+      "number": "INV-2024-008",
+      "amount": 3200.0,
+      "due_date": "2024-07-01",
+      "status": "unpaid"
+    },
+    {
+      "id": 9,
+      "client_id": 3,
+      "number": "INV-2024-009",
+      "amount": 720.0,
+      "due_date": "2024-08-20",
+      "status": "paid"
+    },
+    {
+      "id": 10,
+      "client_id": 5,
+      "number": "INV-2024-010",
+      "amount": 1850.0,
+      "due_date": "2024-09-10",
+      "status": "unpaid"
+    },
+    {
+      "id": 11,
+      "client_id": 6,
+      "number": "INV-2024-011",
+      "amount": 275.0,
+      "due_date": "2026-05-01",
+      "status": "unpaid"
+    },
+    {
+      "id": 12,
+      "client_id": 4,
+      "number": "INV-2024-012",
+      "amount": 640.0,
+      "due_date": "2024-11-30",
+      "status": "paid"
+    }
+  ]
+}
