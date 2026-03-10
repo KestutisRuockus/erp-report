@@ -36,6 +36,12 @@ Task: Import and analyze overdue invoices from an Excel file.
 2. Find the top 3 invoices with the most overdue days
    and print client name, invoice number and overdue days to console.
 
+### cron.js
+
+Task: Automatically generate overdue invoices report every minute.
+
+- Run generateReport() from report.js on a scheduled interval.
+
 ## How to run
 
 Install dependencies:
@@ -48,6 +54,7 @@ Run scripts:
 node report.js
 node summary.js
 node import.js
+node cron.js
 \```
 
 ## Output

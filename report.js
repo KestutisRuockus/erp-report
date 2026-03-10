@@ -60,3 +60,5 @@ async function generateReport() {
 }
 
 generateReport();
+
+module.exports = { generateReport };
